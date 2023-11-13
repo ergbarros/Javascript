@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Efeito fade (esmaecimento, desaparecimento) */
+
+#slide {
+    opacity: 1; /* 100% visivel (0 a1 ) */
+    transition: opacity 2s
+}
+#slide.FadeOut {
+    opacity: 0.1 /* invisivel (0 a 1)*/
+}
