@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+}
+
+#main {
+    text-align: center;
+}
+
+.Caixa {
+    width: 80px;
+}
